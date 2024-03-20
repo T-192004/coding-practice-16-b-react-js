@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-card {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  width: 80%;
+  min-height: 60%;
+  border-radius: 10px;
+}
+.content-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.content-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.title {
+  color: #171f46;
+  font-size: 28px;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.input-label {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.input-box {
+  padding: 8px;
+  border: solid 2px #b5b7c4;
+  border-radius: 6px;
+  margin: 5px 0px 20px 0px;
+  width: 100%;
+}
+.submit-btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'roboto';
+  padding: 8px;
+  background-color: #9796f0;
+  text-align: center;
+  width: 80px;
+  border: none;
+  outline: none;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+}
+.appointments-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  flex-shrink: 0;
+}
+.line {
+  width: 100%;
+  height: 4px;
+  color: #b5b7c4;
+}
+.appointment-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-btn {
+  color: #9897f0;
+  border: solid 2px #9897f0;
+  border-radius: 20px;
+  padding: 6px;
+  width: 80px;
+  background-color: transparent;
+}
+.appointments-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
